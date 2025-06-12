@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmoni - Plataforma Musical</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">
+            <h1>HARMONI</h1>
+        </div>
+        
+        <div class="nav-section">
+            <div class="nav-item active">
+                <i class="fas fa-home"></i>
+                <span>Inicio</span>
+            </div>
+            <div class="nav-item">
+                <i class="fas fa-search"></i>
+                <span>Buscar</span>
+            </div>
+            <div class="nav-item">
+                <i class="fas fa-book"></i>
+                <span>Tu biblioteca</span>
+            </div>
+        </div>
+        
+        <div class="nav-section">
+            <h2>Playlists</h2>
+            <div class="playlist-list">
+                <div class="playlist-item">Favoritos</div>
+                <div class="playlist-item">Descubrimiento semanal</div>
+                <div class="playlist-item">Éxitos 2025</div>
+                <div class="playlist-item">Reggaeton</div>
+                <div class="playlist-item">Descanso</div>
+                <div class="playlist-item">Phonk GYM</div>
+                <div class="playlist-item">Viaje en carretera</div>
+                <div class="playlist-item">Electrónica</div>
+            </div>
+        </div>
+    </aside>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-arrows">
+            <button><i class="fas fa-chevron-left"></i></button>
+            <button><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Buscar artistas, canciones o podcasts">
+        </div>
+        
+        <div class="user-actions">
+            <button class="upgrade-btn">Premium</button>
+            <div class="user-profile">
+                <div class="user-avatar">JL</div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        <h1 class="section-title">Buenos días</h1>
+        
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-img"><i class="fas fa-music"></i></div>
+                <div class="card-title">Tu Top 2024</div>
+                <div class="card-desc">Tus canciones más escuchadas este año</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img"><i class="fas fa-heart"></i></div>
+                <div class="card-title">Favoritos</div>
+                <div class="card-desc">Tus canciones guardadas</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img"><i class="fas fa-bolt"></i></div>
+                <div class="card-title">Energía máxima</div>
+                <div class="card-desc">Música para mantener el ritmo</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img"><i class="fas fa-cloud-sun"></i></div>
+                <div class="card-title">Chill Out</div>
+                <div class="card-desc">Relájate con estas vibes</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img"><i class="fas fa-guitar"></i></div>
+                <div class="card-title">Rock Classics</div>
+                <div class="card-desc">Los mejores éxitos del rock</div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img"><i class="fas fa-headphones"></i></div>
+                <div class="card-title">Focus Flow</div>
+                <div class="card-desc">Música para concentrarte</div>
+            </div>
+        </div>
+        
+        <div class="recently-played">
+            <h2 class="section-title">Reproducido recientemente</h2>
+            
+            <div class="recent-tracks">
+                <div class="track">
+                    <div class="track-img"></div>
+                    <div class="track-info">
+                        <div class="track-title">Blinding Lights</div>
+                        <div class="track-artist">The Weeknd</div>
+                    </div>
+                    <div class="track-time">3:45</div>
+                </div>
+                
+                <div class="track">
+                    <div class="track-img"></div>
+                    <div class="track-info">
+                        <div class="track-title">As It Was</div>
+                        <div class="track-artist">Harry Styles</div>
+                    </div>
+                    <div class="track-time">2:55</div>
+                </div>
+                
+                <div class="track">
+                    <div class="track-img"></div>
+                    <div class="track-info">
+                        <div class="track-title">Save Your Tears</div>
+                        <div class="track-artist">The Weeknd</div>
+                    </div>
+                    <div class="track-time">3:35</div>
+                </div>
+                
+                <div class="track">
+                    <div class="track-img"></div>
+                    <div class="track-info">
+                        <div class="track-title">Stay</div>
+                        <div class="track-artist">The Kid LAROI, Justin Bieber</div>
+                    </div>
+                    <div class="track-time">2:21</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Player -->
+    <footer class="player">
+        <div class="current-track">
+            <div class="current-track-img"></div>
+            <div class="track-details">
+                <h4>Blinding Lights</h4>
+                <p>The Weeknd</p>
+            </div>
+        </div>
+        
+        <div class="player-controls">
+            <div class="control-buttons">
+                <button><i class="fas fa-random"></i></button>
+                <button><i class="fas fa-step-backward"></i></button>
+                <button class="play-btn"><i class="fas fa-play"></i></button>
+                <button><i class="fas fa-step-forward"></i></button>
+                <button><i class="fas fa-repeat"></i></button>
+            </div>
+            
+            <div class="progress-container">
+                <div class="progress-time">1:23</div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                    <div class="progress-handle"></div>
+                </div>
+                <div class="progress-time">3:45</div>
+            </div>
+        </div>
+        
+        <div class="player-options">
+            <button><i class="fas fa-list"></i></button>
+            <button><i class="fas fa-laptop"></i></button>
+            <div class="volume-container">
+                <button><i class="fas fa-volume-up"></i></button>
+                <div class="volume-bar">
+                    <div class="volume-level"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
