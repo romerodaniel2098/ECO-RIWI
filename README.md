@@ -8,7 +8,7 @@
 	•	Buscar
 	•	Tu biblioteca
 
-## 2. Sección principal (contenido dinámico simulado)
+## 2. Sección principal
 	- Incluir una sección principal con tarjetas tipo playlist que contenga las siguientes categorías:
 	•	Favoritos
 	•	Tu Top 2025
